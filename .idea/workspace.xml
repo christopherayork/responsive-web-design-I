@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a91cf46-76be-4ffd-a57b-958a19cc9731" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/img/header-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/img/mid-page-accent.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/img/services-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/img/services-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mobile-first/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,28 +24,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/mobile-first/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-178">
-              <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="20" />
+            <state relative-caret-position="-272">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services.html">
+        <entry file="file://$PROJECT_DIR$/mobile-first/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="2440">
+              <caret line="267" column="1" selection-start-line="267" selection-start-column="1" selection-end-line="267" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-first/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -62,6 +68,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/mobile-first/css/index.css" />
       </list>
     </option>
   </component>
@@ -87,6 +94,17 @@
             <path>
               <item name="responsive-web-design-I" type="b2602c69:ProjectViewProjectNode" />
               <item name="responsive-web-design-I" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="responsive-web-design-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive-web-design-I" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="responsive-web-design-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="responsive-web-design-I" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile-first" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -118,7 +136,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Live Edit" type="JavascriptDebugType" uri="http://localhost:52789/responsive-web-design-I/services.html?_ijt=dt4r7hsibrhtrvoahj7a4ilr5e" useBuiltInWebServerPort="true">
+    <configuration name="Live Edit" type="JavascriptDebugType" uri="http://localhost:52789/responsive-web-design-I/mobile-first/services.html?_ijt=qh2bv64hj6hov85sp6hea3j2pm" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
@@ -132,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559589168825</updated>
-      <workItem from="1559589172320" duration="10583000" />
+      <workItem from="1559589172320" duration="12570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10583000" />
+    <option name="totallyTimeSpent" value="12570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -166,24 +184,45 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
+        <state relative-caret-position="570">
           <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-first/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2440">
+          <caret line="267" column="1" selection-start-line="267" selection-start-column="1" selection-end-line="267" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-first/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-first/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

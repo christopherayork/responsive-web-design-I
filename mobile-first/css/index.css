@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+ul li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* Navigation */
+
+#body-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.25%;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a:first-child {
+    border-top: 1px solid gray;
+}
+
+nav div {
+    order: 1;
+    flex: 0 1 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+nav a {
+    order: 2;
+}
+
+@media (min-width: 501px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        border: 0px;
+        width: inherit;
+    }
+
+    nav a:first-child {
+        border-top: 0px;
+    }
+
+
+}
+
+@media (min-width: 801px) {
+
+    nav {
+        display: flex;
+        align-items: flex-end;
+        color: gray;
+        margin: 20px 0;
+    }
+
+    nav a, nav div {
+        order: 1;
+    }
+
+    nav a {
+        align-items: flex-end;
+        padding: 0;
+    }
+
+    nav div {
+        flex: inherit;
+        padding: 0;
+    }
+
+}
+
+nav a {
+    color: gray;
+    font-weight: bold;
+}
+
+/* Subheader */
+
+#subheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#subheader-left {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#subheader-services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#subheader-services img, .middle-img {
+    max-width: 100%;
+}
+
+#subheader-services img {
+    margin-bottom: 20px;
+}
+
+#subheader-left button {
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+
+
+/* Main */
+
+main {
+    margin: 60px 0;
+}
+
+.optional {
+    display: none;
+}
+
+@media (min-width: 801px) {
+    .optional {
+        display: inline;
+    }
+}
+
+article {
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0;
+}
+
+.dual-section, .tri-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.dual-section {}
+
+.tri-section {}
+
+.dual-section.service {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-point {
+    padding: 0 15px;
+    margin: 30px 0;
+}
+
+.main-point.service {
+    background: #f2f2f2;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+@media (min-width: 501px) {
+    .dual-section, .tri-section {
+        margin: 40px 0;
+        flex-direction: row;
+    }
+
+    .main-point {
+        margin: 0;
+    }
+}
+
+.main-point.service button {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+@media (min-width: 501px) {
+    .dual-section.service {
+        align-items: inherit;
+    }
+
+    .main-point.service {
+        width: 45%;
+    }
+}
+
+
+/* Footer */
+
+#copyright {
+    margin: 40px 0;
+    text-align: center;
+}
