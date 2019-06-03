@@ -160,6 +160,7 @@ main {
 
 .optional {
     /* Use a Media Query to Hide This on Mobile with visibility: hidden; */
+    /* We dont need an additional media query for 500px because 500px falls within the rules for 800px */
 }
 
 @media (max-width: 800px) {
