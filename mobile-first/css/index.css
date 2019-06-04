@@ -88,49 +88,78 @@ ul li {
     padding: 0 1.25%;
 }
 
+
 nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
-    color: gray;
-    margin: 20px 0;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-@media (max-width: 800px) {
-    nav {
-        align-items: center;
-        flex-wrap: wrap;
-    }
+nav a {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 15px 0;
+}
 
-    nav div {
-        order: 1;
-        flex: 0 1 100%;
-        display: flex;
-        justify-content: center;
-        padding: 30px 0;
+nav a:first-child {
+    border-top: 1px solid gray;
+}
+
+nav div {
+    order: 1;
+    flex: 0 1 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+nav a {
+    order: 2;
+}
+
+@media (min-width: 501px) {
+    nav {
+        flex-direction: row;
     }
 
     nav a {
-        order: 2;
-    }
-}
-
-@media (max-width: 500px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav a {
-        width: 100%;
-        border-bottom: 1px solid gray;
-        text-align: center;
-        padding: 15px 0;
+        border: 0px;
+        width: inherit;
     }
 
     nav a:first-child {
-        border-top: 1px solid gray;
+        border-top: 0px;
     }
+
+
+}
+
+@media (min-width: 801px) {
+
+    nav {
+        display: flex;
+        align-items: flex-end;
+        color: gray;
+        margin: 20px 0;
+    }
+
+    nav a, nav div {
+        order: 1;
+    }
+
+    nav a {
+        align-items: flex-end;
+        padding: 0;
+    }
+
+    nav div {
+        flex: inherit;
+        padding: 0;
+    }
+
 }
 
 nav a {
@@ -157,7 +186,7 @@ nav a {
     flex-direction: column;
 }
 
-#subheader-services img {
+#subheader-services img, .middle-img {
     max-width: 100%;
 }
 
@@ -179,13 +208,12 @@ main {
 }
 
 .optional {
-    /* Use a Media Query to Hide This on Mobile with visibility: hidden; */
-    /* We dont need an additional media query for 500px because 500px falls within the rules for 800px */
+    display: none;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 801px) {
     .optional {
-        display: none;
+        display: inline;
     }
 }
 
@@ -198,19 +226,8 @@ article {
 }
 
 .dual-section, .tri-section {
-    margin: 40px 0;
     display: flex;
-}
-
-@media (max-width: 500px) {
-    .dual-section, .tri-section {
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .main-point {
-        margin: 30px 0;
-    }
+    flex-direction: column;
 }
 
 .dual-section {}
@@ -219,17 +236,30 @@ article {
 
 .dual-section.service {
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-point {
     padding: 0 15px;
+    margin: 30px 0;
 }
 
 .main-point.service {
     background: #f2f2f2;
     padding: 10px;
     border: 1px solid black;
-    width: 45%;
+    width: 100%;
+}
+
+@media (min-width: 501px) {
+    .dual-section, .tri-section {
+        margin: 40px 0;
+        flex-direction: row;
+    }
+
+    .main-point {
+        margin: 0;
+    }
 }
 
 .main-point.service button {
@@ -237,15 +267,14 @@ article {
     border-radius: 5px;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 501px) {
     .dual-section.service {
-        align-items: center;
+        align-items: inherit;
     }
 
     .main-point.service {
-        width: 100%;
+        width: 45%;
     }
-
 }
 
 
